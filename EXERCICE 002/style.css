@@ -1,0 +1,44 @@
+
+    
+
+body{
+    background-image: url(./assets/img/header_bg.jpg);
+}
+p{
+    font-size:  35px;
+    color:white;
+    text-align: center;
+    
+}  
+.menu1{
+    display: flex;              /* Transformation en flexbox */
+    padding:0;                  /* Suppression des marges internes */
+    width: 100%;
+    justify-content: center;
+}  
+.logos1{
+    width: 500px;
+}
+.menu1 li{
+
+        list-style-type: none ;       /* Suppression des puces */
+}
+.menu1 a{
+    display:block;                /* Transformation en block */
+    min-width: 120px;             /* Largeur minimale des liens */   
+    
+    margin: 0.5rem;               /* Marges externes (1 valeurs = 4 directions) */
+    padding: 0.4rem 0;            /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
+    text-align: center;           /* Centrage du texte */   
+    
+}
+.overcolor{
+    justify-content: left;
+    color:#3d9f96;
+}
+#left{
+    color: #FFFFFF;
+}
+.fin{
+background-color: #FFFFFF;
+}
